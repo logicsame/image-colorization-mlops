@@ -1,0 +1,7 @@
+display_step: 11
+in_channels: 1
+lambda_gp: 10
+lambda_r1: 10
+lambda_recon: 100
+learning_rate: 2.0e-05
+out_channels: 2

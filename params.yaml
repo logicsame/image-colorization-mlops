@@ -1,0 +1,31 @@
+# Data Parameters
+BATCH_SIZE: 5
+IMAGE_SIZE: [224, 224, 1]
+DATA_RANGE: 3000
+
+# Convolutional Layer Parameters
+KERNEL_SIZE_RES: 3
+PADDING: 1
+STRIDE: 1
+BIAS: False
+
+# UpSampling Parameters
+SCALE_FACTOR: 2
+DIM: 1
+
+# Dropout Parameters
+DROPOUT_RATE: 0.2
+
+# Generator Parameters
+KERNEL_SIZE_GENERATOR: 1
+INPUT_CHANNELS: 1
+OUTPUT_CHANNELS: 2
+
+# Critic Parameters
+IN_CHANNELS: 3
+
+# model train
+LEARNING_RATE : 2e-4
+LAMBDA_RECON : 100
+DISPLAY_STEP : 10
+EPOCH : 500
